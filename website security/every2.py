@@ -1,0 +1,21 @@
+import csv
+list1 = []
+list2 = []
+ca = ""
+
+with open('total.csv', newline='') as csvfile:
+    reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+    for row in reader:
+        list1.append(row)
+
+print(list1[::2])
+
+'''
+#print(list2)
+for i in range(0,len(list2)):
+    hostname = str(list2[i])
+    hostname = hostname.replace('[', '')
+    hostname = hostname.replace('\'', '')
+    hostname = hostname.replace(']', '')
+    print(hostname)
+'''
