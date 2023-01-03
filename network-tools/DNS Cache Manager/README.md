@@ -1,4 +1,4 @@
-#DNS Cache Manager
+<h1>DNS Cache Manager</h1>
 
 This script allows you to manage the Domain Name System (DNS) cache on your device. You can clear the cache, add custom entries to the cache, or display the current contents of the cache.
 
