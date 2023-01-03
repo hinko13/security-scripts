@@ -1,2 +1,2 @@
-folium
-maxminddb-geolite2
+Folium 
+geoip2 
