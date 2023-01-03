@@ -13,6 +13,8 @@ This script runs the ping command with certain arguments to send a specified num
 <h4>ping_testing_script.py</h4> 
 This script runs the ping command with certain arguments to send a specified number of ICMP echo request packets to a specified IP address and waits for the corresponding echo reply packets. It then checks the response of the ping command and prints the results.
 
+<h4>dns_cache_manager</h4>
+This script allows you to manage the Domain Name System (DNS) cache on your device. You can clear the cache, add custom entries to the cache, or display the current contents of the cache.
 
 <h2>website-security</h2>
 The website-security directory contains a collection of scripts that can be used to check the security of websites.
