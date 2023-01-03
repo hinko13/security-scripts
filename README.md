@@ -1,7 +1,7 @@
 # security-scripts
 
 <h2>network-tools</h2>
-The network-tools directory contains two scripts that can be used to perform various network diagnostic and testing tasks.
+The network-tools directory contains a few different scripts that can be used to perform various network diagnostic and testing tasks.
 
 
 <h3>Map Tracer</h3>
