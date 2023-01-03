@@ -1,11 +1,17 @@
 # security-scripts
 
 <h2>network-tools</h2>
+The network-tools directory contains two scripts that can be used to perform various network diagnostic and testing tasks.
 
+<h3>icmp_echo_request_and_reply_parser.py</h3>
+This script runs the ping command with certain arguments to send a specified number of ICMP (Internet Control Message Protocol) echo request packets to a specified IP address and waits for the corresponding echo reply packets. It then parses the output of the ping command to extract the packet loss, minimum, average, and maximum round trip times for the packets.
+
+<h3>ping_testing_script.py</h3> 
+This script runs the ping command with certain arguments to send a specified number of ICMP echo request packets to a specified IP address and waits for the corresponding echo reply packets. It then checks the response of the ping command and prints the results.
 
 
 <h2>website-security</h2>
-This directory contains a collection of scripts that can be used to check the security of websites.
+The website-security directory contains a collection of scripts that can be used to check the security of websites.
 
 <h3>processing_and_printing_csv_data.py</h3>
 This script reads a CSV file and stores each row in a list. It then processes and prints a sublist of the list, as well as commented out code to process and print a different list.
