@@ -3,7 +3,9 @@
 <h2>network-tools</h2>
 The network-tools directory contains two scripts that can be used to perform various network diagnostic and testing tasks.
 
-<h3>Map Tracer</h3>
+
+
+<h3>[Map Tracer](/network-tools/map-tracer/readme.md)</h3>
 A Python script that uses the traceroute command to trace the route taken to reach a given destination, and visualizes the route on a map using the Folium library.
 
 <h3>icmp_echo_request_and_reply_parser.py</h3>
